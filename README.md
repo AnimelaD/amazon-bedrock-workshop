@@ -12,3 +12,20 @@ Model Customization [Estimated time to complete - 45 mins]
 Images and Multimodal [Estimated time to complete - 45 mins]
 Agents [Estimated time to complete - 30 mins]
 Open Source [Estimated time to complete - 30 mins]
+
+
+**Text Generation **
+
+![image](https://github.com/user-attachments/assets/c5aefe3f-1821-4dfe-985a-2d28f7df91b2)
+
+There are five sub-patterns that will be demonstrated on this module for text generation:
+
+Zero-shot generation  - With zero-shot generation, the user will only provide an input request to generate an email without any context. We will explore zero-shot email generation using two approaches: Bedrock API (Boto3) and Bedrock integration with LangChain.
+
+Code generation  - With zero-shot generation we can leverage the code generation capability of the model. This is based on the data learnt by the model during training.
+
+Summarization  - In this sub-pattern, we will explore the summarization capability and leverage the Titan model for the same. This approach is dependent on the size of the document and the context length. Later on we will explore other patterns to summarize larger documents.
+
+Simplified Question Answering  - The example will show how questions are sent to the model and will get answers from the base model with no modifications. Question Answering (QA) is an important task that involves extracting answers to factual queries posed in natural language. Typically, a QA system processes a query against a knowledge base containing structured or unstructured data and generates a response with accurate information. Ensuring high accuracy is key to developing a useful, reliable and trustworthy question answering system, especially for enterprise use cases.
+
+Entity Extraction  - In this sub-pattern, we will Entity extraction is an NLP technique that allows us to automatically extract specific data from naturally written text, such as news, emails, books, etc. That data can then later be saved to a database, used for lookup or any other type of processing.
